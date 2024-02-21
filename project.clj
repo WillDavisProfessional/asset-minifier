@@ -5,9 +5,9 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [clojure-future-spec "1.9.0"]
-                 [org.clojure/test.check "0.9.0"]
+                 [org.clojure/test.check "1.1.1"]
                  [com.yahoo.platform.yui/yuicompressor "2.4.8" :exclusions [rhino/js]]
-                 [com.google.javascript/closure-compiler "v20160208"]
+                 [com.google.javascript/closure-compiler "v20231112"]
                  [clj-html-compressor "0.1.1"]
                  [commons-io "2.6"]]
   :profiles {:dev {:dependencies [[pjstadig/humane-test-output "0.9.0"]]
